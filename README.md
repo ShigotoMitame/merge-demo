@@ -10,11 +10,11 @@ Repo to demostrate merging things
 
 ## Merging
 
-If the PR is a feature/fix:
+### PR is a feature/fix:
   - Start from `develop`
   - Merge into `develop`
 
-If the PR is a releasefeature/releasefix:
+### PR is a releasefeature/releasefix:
   1. Start from `release/*`
   2. Create branch with feature/fix for release in branch `x`
   3. Create branch to merge into `develop` (branch `x.develop`)
@@ -30,7 +30,7 @@ If the PR is a releasefeature/releasefix:
           1. Create commits on `x` and go to 3
 
 
-If the PR is a hotfeature/hotfix:
+### PR is a hotfeature/hotfix:
   1. Start from `master`
   2. Create branch with feature/fix for master in branch `x`
   3. Create branch to merge into `develop` (branch `x.develop`)
